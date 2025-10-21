@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Adaptation Hub Flyer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #004d40; /* Dark Teal Background */
+            color: #f0fdfa; /* Light text */
+            line-height: 1.6;
+        }
+        .flyer-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #00796b; /* Medium Teal */
+        }
+        .accent-color {
+            color: #ffb300; /* Amber/Orange Accent */
+        }
+        .feature-icon {
+            font-size: 2.5rem;
+            line-height: 1;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-8">
+
+    <div class="flyer-container p-6 sm:p-10 rounded-xl shadow-2xl border-4 border-[#ffb300]">
+        
+        <header class="text-center mb-8">
+            <div class="mb-4">
+                <img src="images/logo.png" alt="Plant Adaptation Hub Logo" class="h-16 mx-auto mb-3">
+            </div>
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-[#f0fdfa] leading-tight">
+                UNLOCKING <span class="accent-color">CROP RESILIENCE</span>
+            </h1>
+            <h2 class="text-xl sm:text-2xl font-light mt-1 border-t pt-2 border-dashed border-[#009688]">
+                The Plant Adaptation Hub
+            </h2>
+        </header>
+
+        <section class="mb-8 text-center bg-[#004d40] p-4 rounded-lg">
+            <p class="text-lg font-medium">
+                Accelerating the breeding of **Camelina sativa**—the sustainable, climate-resilient oilseed—using integrated, code-free data analysis.
+            </p>
+        </section>
+
+        <section class="mb-8">
+            <h3 class="text-2xl font-bold mb-4 text-center accent-color border-b border-dashed pb-2">
+                KEY PLATFORM ADVANTAGES
+            </h3>
+            <div class="space-y-4">
+                
+                <div class="flex items-start">
+                    <span class="feature-icon mr-4">💻</span>
+                    <div>
+                        <p class="font-bold text-[#ffb300]">Code-Free GWAS Pipeline</p>
+                        <p class="text-sm">Run **Genome-Wide Association Studies (GWAS)** instantly against 54 UNTWIST genotypes to pinpoint significant genetic markers—no programming needed.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <span class="feature-icon mr-4">🔗</span>
+                    <div>
+                        <p class="font-bold text-[#ffb300]">Integrated Discovery</p>
+                        <p class="text-sm">Visualize GWAS peaks directly inside an integrated genome browser (**JBrowse 2**) alongside transcriptomics and epigenetic data to identify causal genes quickly.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <span class="feature-icon mr-4">📊</span>
+                    <div>
+                        <p class="font-bold text-[#ffb300]">Interactive Phenotype Analysis (EDA)</p>
+                        <p class="text-sm">Generate real-time plots (boxplots, scatterplots) and run statistical tests on agronomic traits and environmental factors instantly.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start">
+                    <span class="feature-icon mr-4">🧬</span>
+                    <div>
+                        <p class="font-bold text-[#ffb300]">Multi-Omics Data Universe</p>
+                        <p class="text-sm">Access harmonized Genomics, Transcriptomics, Lipidomics, and Metabolomics data for comprehensive biological understanding.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center pt-6 border-t border-dashed border-[#009688]">
+            <p class="text-xl font-bold mb-3 accent-color">
+                Start Your Discovery Today
+            </p>
+            <a href="https://www.camelina-hub.org" target="_blank" class="inline-block bg-[#ffb300] text-[#004d40] font-extrabold py-3 px-8 rounded-full shadow-lg hover:bg-amber-500 transition-all duration-300">
+                Visit the Hub
+            </a>
+            <p class="text-xs mt-4 text-[#009688]">
+                An initiative of the EU-funded UNTWIST Project.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
