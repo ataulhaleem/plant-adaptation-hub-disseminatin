@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Plant Adaptation Hub: An Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .image-container {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .zoom-in-arrow {
+            /* Custom CSS for a connecting arrow graphic, not relying on complex SVG or library */
+            height: 40px;
+            width: 40px;
+            margin: 1rem auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: #2A9D8F;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto p-4 md:p-8 max-w-5xl">
+
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-[#264653] mb-2">The Plant Adaptation Hub</h1>
+            <p class="text-xl md:text-2xl text-[#2A9D8F]">Accelerating Sustainable Agriculture with Data</p>
+            <p class="text-sm mt-2 text-gray-500">An output of the EU-funded UNTWIST Project</p>
+        </header>
+
+        <main class="space-y-12">
+
+            <section id="challenge" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#264653] text-center mb-4">The Challenge: A Resilient Food Future</h2>
+                <div class="grid md:grid-cols-2 gap-6 items-center">
+                    <div class="text-lg text-gray-700 space-y-4">
+                        <p>Climate change demands crops that can withstand environmental stress. <span class="font-semibold text-[#E76F51]">Camelina sativa</span>, a versatile oilseed, shows immense promise. However, unlocking its full potential requires analyzing vast and complex biological data—a major bottleneck for breeders.</p>
+                        <p>The Plant Adaptation Hub was created to break this bottleneck, providing a powerful, user-friendly platform to turn data into discovery.</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4 text-center">
+                        <div class="bg-teal-50 p-4 rounded-lg">
+                            <span class="text-4xl font-bold text-[#2A9D8F]">54</span>
+                            <p class="text-gray-600">Genotypes</p>
+                        </div>
+                        <div class="bg-orange-50 p-4 rounded-lg">
+                            <span class="text-4xl font-bold text-[#F4A261]">3+</span>
+                            <p class="text-gray-600">Omics Layers</p>
+                        </div>
+                         <div class="bg-red-50 p-4 rounded-lg col-span-2">
+                            <span class="text-4xl font-bold text-[#E76F51]">1,000s</span>
+                            <p class="text-gray-600">Measured Variables</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="data-universe" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#264653] text-center mb-6">An Integrated Data Universe</h2>
+                 <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">The Hub centralizes diverse datasets, creating a comprehensive resource for understanding Camelina's biology from the DNA level up to its performance in the field.</p>
+                <div class="grid md:grid-cols-1 gap-8 items-start">
+                    <div>
+                        <ul class="text-lg space-y-3">
+                            <li class="flex items-center"><span class="text-2xl mr-3">🧬</span><strong class="text-[#264653] mr-2">Genomics:</strong> The complete genetic blueprint.</li>
+                            <li class="flex items-center"><span class="text-2xl mr-3">📜</span><strong class="text-[#2A9D8F] mr-2">Transcriptomics:</strong> Gene activity under different conditions.</li>
+                            <li class="flex items-center"><span class="text-2xl mr-3">🌱</span><strong class="text-[#55A630] mr-2">Phenomics:</strong> Agronomic traits like yield and stress tolerance.</li>
+                            <li class="flex items-center"><span class="text-2xl mr-3">🧪</span><strong class="text-[#F4A261] mr-2">Metabolomics:</strong> The collection of small molecules.</li>
+                            <li class="flex items-center"><span class="text-2xl mr-3">💧</span><strong class="text-[#E76F51] mr-2">Lipidomics:</strong> Detailed oil composition profiles.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="tools" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#264653] text-center mb-6">Explore, Analyze, and Compare (Phenotype Analysis)</h2>
+                 <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">Intuitive tools allow users to perform sophisticated Exploratory Data Analysis (EDA) and visualize data instantly without needing programming skills. This example shows phenotypic variation across genotypes.</p>
+                <div class="image-container">
+                    <img src="images/phenotype.png" alt="Phenotype Analysis Plot showing trait distribution across genotypes." class="w-full h-auto rounded-lg shadow-lg border border-gray-200">
+                </div>
+            </section>
+            
+            <section id="workflow" class="bg-white rounded-lg shadow-md p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-[#264653] text-center mb-2">The Core Workflow: From Trait to Gene</h2>
+                <p class="max-w-3xl mx-auto text-center text-gray-600 mb-8">The platform's flagship feature is a seamless, code-free pipeline that empowers users to identify the genetic basis of important traits in real-time.</p>
+                
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-4 text-center mb-10">
+                    
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#264653] text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">1</div>
+                        <h3 class="font-semibold mt-2">Select a Trait</h3>
+                        <p class="text-sm text-gray-600 max-w-xs">User chooses a trait of interest, like drought tolerance or oil content.</p>
+                    </div>
+
+                    <div class="text-[#2A9D8F] text-4xl font-light transform rotate-90 md:rotate-0">➔</div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#2A9D8F] text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">2</div>
+                        <h3 class="font-semibold mt-2">Run GWAS</h3>
+                        <p class="text-sm text-gray-600 max-w-xs">With one click, perform a Genome-Wide Association Study (GWAS).</p>
+                    </div>
+
+                    <div class="text-[#F4A261] text-4xl font-light transform rotate-90 md:rotate-0">➔</div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#F4A261] text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">3</div>
+                        <h3 class="font-semibold mt-2">Visualize Results</h3>
+                        <p class="text-sm text-gray-600 max-w-xs">Results are instantly displayed as an interactive Manhattan plot.</p>
+                    </div>
+
+                    <div class="text-[#E76F51] text-4xl font-light transform rotate-90 md:rotate-0">➔</div>
+
+                    <div class="flex flex-col items-center">
+                        <div class="bg-[#E76F51] text-white rounded-full w-20 h-20 flex items-center justify-center text-3xl font-bold">4</div>
+                        <h3 class="font-semibold mt-2">Identify Genes</h3>
+                        <p class="text-sm text-gray-600 max-w-xs">Clicking a peak links to the genome browser for candidate gene discovery.</p>
+                    </div>
+                </div>
+                
+                <div class="mt-10 pt-6 border-t border-gray-200">
+                    <p class="text-center text-gray-700 mb-6 text-xl font-semibold">The Discovery Step: Linking Signal to Sequence</p>
+                    
+                    <!-- Top Image: Manhattan Plot -->
+                    <p class="text-center text-gray-600 mb-4 font-semibold">GWAS Output: The Manhattan Plot (Signal)</p>
+                    <div class="image-container">
+                        <img src="images/manhattanplot.png" alt="GWAS Manhattan Plot showing genomic positions and significance peaks." class="w-full h-auto rounded-lg shadow-lg border border-gray-200">
+                    </div>
+
+                    <!-- Visual Connector -->
+                    <div class="zoom-in-arrow">⬇️</div>
+
+                    <!-- Bottom Image: Genome Browser -->
+                    <p class="text-center text-gray-600 mb-4 font-semibold mt-6">Integrated Gene Discovery (Sequence)</p>
+                    <div class="image-container">
+                         <img src="images/genome_browser.png" alt="JBrowse 2 genome browser showing GWAS peak integrated with gene expression (transcriptomics) data." class="w-full h-auto rounded-lg shadow-lg border border-gray-200">
+                    </div>
+                    <p class="text-center text-sm text-gray-500 mt-4">The system automatically zooms in on the GWAS peak, viewing gene models and linked transcriptomics data to pinpoint the causal gene.</p>
+                </div>
+            </section>
+            
+            <section id="impact" class="text-center bg-teal-700 text-white rounded-lg shadow-md p-8">
+                <h2 class="text-3xl font-bold mb-4">Driving Innovation for a Sustainable Future</h2>
+                <p class="text-lg max-w-3xl mx-auto mb-6">The Plant Adaptation Hub is more than a database; it is a collaborative ecosystem designed to accelerate breeding cycles, promote data sharing under FAIR principles, and contribute to a more resilient and sustainable agricultural landscape in the EU and beyond.</p>
+                <a href="https://www.camelina-hub.org" target="_blank" class="inline-block bg-white text-[#264653] font-bold py-3 px-6 rounded-lg hover:bg-gray-200 transition-colors">Explore the Hub</a>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
